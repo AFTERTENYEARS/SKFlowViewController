@@ -1,0 +1,6 @@
+framework module Pods_SKFlowViewController_Tests {
+  umbrella header "Pods-SKFlowViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

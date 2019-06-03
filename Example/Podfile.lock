@@ -1,0 +1,16 @@
+PODS:
+  - SKFlowViewController (0.1.0)
+
+DEPENDENCIES:
+  - SKFlowViewController (from `../`)
+
+EXTERNAL SOURCES:
+  SKFlowViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKFlowViewController: eb5bb83f5197b4e8c7c3089539461e1bae6fec14
+
+PODFILE CHECKSUM: 238a7849afefde61f2579a03d9d1271ed1d0e72f
+
+COCOAPODS: 1.5.3

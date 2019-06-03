@@ -1,0 +1,22 @@
+{
+  "name": "SKFlowViewController",
+  "version": "0.1.0",
+  "summary": "A short description of SKFlowViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AFTERTENYEARS/SKFlowViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AFTERTENYEARS": "1786188021@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/AFTERTENYEARS/SKFlowViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SKFlowViewController/Classes/**/*"
+}

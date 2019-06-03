@@ -1,4 +1,4 @@
-use_frameworks!
+
 target 'SKFlowViewController_Tests' do
   pod 'SKFlowViewController', :path => '../'
   

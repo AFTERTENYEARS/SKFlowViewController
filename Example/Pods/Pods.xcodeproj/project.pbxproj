@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5CD9A022A525E500030BEB /* SKFlowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5CD99E22A525E500030BEB /* SKFlowViewController.h */; };
+		0A5CD9A122A525E500030BEB /* SKFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5CD99F22A525E500030BEB /* SKFlowViewController.m */; };
+		22A51FAFC4C182A2443F7E7CA2D992CB /* Pods-SKFlowViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B47AD3B9D1D9449A6BFFDEF7BA9B6800 /* Pods-SKFlowViewController_Tests-dummy.m */; };
+		3BEAC0102CC1CC218D89BD161615AC40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		753BD60812E5C6D7A3768FC0BCB7DE28 /* Pods-SKFlowViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECA4623D19535BA2222C2A560E9C7A2 /* Pods-SKFlowViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		929F10D046F61B3DF1F050DDBF4BE990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D6127E17808FFB9AFAE3A3491E735D42 /* SKFlowViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B325ACF9E531A7546FCB9249188C4C44 /* SKFlowViewController-dummy.m */; };
+		EBC2F55BE7605413942313002B4A63D4 /* SKFlowViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D5BB7D10ED0942C28BE5DA839FE891 /* SKFlowViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F163B8392D3C3EE3626828FF233D1F24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71FC621B9A835EBED0F689BFF6A0E4FE;
+			remoteInfo = SKFlowViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C047C01BE1452EADE2FF614280C3CB /* Pods-SKFlowViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFlowViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0A2CBC21DB37FFE892CFD6F0C30FC672 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5CD99E22A525E500030BEB /* SKFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFlowViewController.h; sourceTree = "<group>"; };
+		0A5CD99F22A525E500030BEB /* SKFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFlowViewController.m; sourceTree = "<group>"; };
+		0ECA4623D19535BA2222C2A560E9C7A2 /* Pods-SKFlowViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKFlowViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		20D5BB7D10ED0942C28BE5DA839FE891 /* SKFlowViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKFlowViewController-umbrella.h"; sourceTree = "<group>"; };
+		29D4508A1EA64172BF7F5B5657811CAA /* SKFlowViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKFlowViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C092DA2129C322180BFAC830478906C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A346896DB6357031B64907C8581D51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5ED661475B9710729DDC16C181F4CA03 /* SKFlowViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKFlowViewController.xcconfig; sourceTree = "<group>"; };
+		66FE89F10CDD57ED5671EA09B4D07CDB /* SKFlowViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKFlowViewController-prefix.pch"; sourceTree = "<group>"; };
+		68788989E07AB3DA627F56E0A54476CE /* Pods-SKFlowViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKFlowViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		83750A96687C3FEDC9D446FA0371387B /* Pods_SKFlowViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKFlowViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8486AF448908B2479F49E122F3CD4D67 /* Pods-SKFlowViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFlowViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8881E74F4DDA61CF803178E45860A555 /* SKFlowViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKFlowViewController.modulemap; sourceTree = "<group>"; };
+		92ED6ECD6D20D9673F6C3927BDE6D3DE /* Pods-SKFlowViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFlowViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9479BF73E05285FB32BC61B13A50C995 /* Pods-SKFlowViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFlowViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE9559E8893962E0498C81F23B85575 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A1B991DF417E7F54382A65A3F309A91D /* Pods-SKFlowViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKFlowViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE2F2A2C0A531730A1269C8DD18B8ADD /* Pods-SKFlowViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKFlowViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B325ACF9E531A7546FCB9249188C4C44 /* SKFlowViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKFlowViewController-dummy.m"; sourceTree = "<group>"; };
+		B47AD3B9D1D9449A6BFFDEF7BA9B6800 /* Pods-SKFlowViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKFlowViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		E53358F3E3DEC67E6C54FB52A9578C10 /* SKFlowViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SKFlowViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57BD35860E60F9F39F605C22132934CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEAC0102CC1CC218D89BD161615AC40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF21EE87838071A9E4AFA53E14DC619F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929F10D046F61B3DF1F050DDBF4BE990 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5CD99D22A525E500030BEB /* SKFlowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A5CD99E22A525E500030BEB /* SKFlowViewController.h */,
+				0A5CD99F22A525E500030BEB /* SKFlowViewController.m */,
+			);
+			name = SKFlowViewController;
+			path = ../Desktop/SKFlowViewController;
+			sourceTree = "<group>";
+		};
+		32967E4AB8500C6494B63B72E0E621C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A2CBC21DB37FFE892CFD6F0C30FC672 /* Info.plist */,
+				8881E74F4DDA61CF803178E45860A555 /* SKFlowViewController.modulemap */,
+				5ED661475B9710729DDC16C181F4CA03 /* SKFlowViewController.xcconfig */,
+				B325ACF9E531A7546FCB9249188C4C44 /* SKFlowViewController-dummy.m */,
+				66FE89F10CDD57ED5671EA09B4D07CDB /* SKFlowViewController-prefix.pch */,
+				20D5BB7D10ED0942C28BE5DA839FE891 /* SKFlowViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKFlowViewController";
+			sourceTree = "<group>";
+		};
+		57C0317F7E6B1BCF82676D180F973DE1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9AE9559E8893962E0498C81F23B85575 /* LICENSE */,
+				46A346896DB6357031B64907C8581D51 /* README.md */,
+				E53358F3E3DEC67E6C54FB52A9578C10 /* SKFlowViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65FCA0E2F3E85415B3B0F88DCA1AF648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83750A96687C3FEDC9D446FA0371387B /* Pods_SKFlowViewController_Tests.framework */,
+				29D4508A1EA64172BF7F5B5657811CAA /* SKFlowViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D961B1AC8354CC3CE438846DDC713FA6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				65FCA0E2F3E85415B3B0F88DCA1AF648 /* Products */,
+				A69C90F42C3F0FC5D44E4B18EFCFF2F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8744CAF22CE217929B50C6F968EA1004 /* Pods-SKFlowViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C092DA2129C322180BFAC830478906C /* Info.plist */,
+				68788989E07AB3DA627F56E0A54476CE /* Pods-SKFlowViewController_Tests.modulemap */,
+				AE2F2A2C0A531730A1269C8DD18B8ADD /* Pods-SKFlowViewController_Tests-acknowledgements.markdown */,
+				A1B991DF417E7F54382A65A3F309A91D /* Pods-SKFlowViewController_Tests-acknowledgements.plist */,
+				B47AD3B9D1D9449A6BFFDEF7BA9B6800 /* Pods-SKFlowViewController_Tests-dummy.m */,
+				03C047C01BE1452EADE2FF614280C3CB /* Pods-SKFlowViewController_Tests-frameworks.sh */,
+				92ED6ECD6D20D9673F6C3927BDE6D3DE /* Pods-SKFlowViewController_Tests-resources.sh */,
+				0ECA4623D19535BA2222C2A560E9C7A2 /* Pods-SKFlowViewController_Tests-umbrella.h */,
+				9479BF73E05285FB32BC61B13A50C995 /* Pods-SKFlowViewController_Tests.debug.xcconfig */,
+				8486AF448908B2479F49E122F3CD4D67 /* Pods-SKFlowViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKFlowViewController_Tests";
+			path = "Target Support Files/Pods-SKFlowViewController_Tests";
+			sourceTree = "<group>";
+		};
+		A69C90F42C3F0FC5D44E4B18EFCFF2F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8744CAF22CE217929B50C6F968EA1004 /* Pods-SKFlowViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D961B1AC8354CC3CE438846DDC713FA6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDF15F343289A33106C98CA095ADB607 /* SKFlowViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DDF15F343289A33106C98CA095ADB607 /* SKFlowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A5CD99D22A525E500030BEB /* SKFlowViewController */,
+				57C0317F7E6B1BCF82676D180F973DE1 /* Pod */,
+				32967E4AB8500C6494B63B72E0E621C2 /* Support Files */,
+			);
+			name = SKFlowViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BCD35A98C3AEC8C3B45E0F5F39FA3BA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753BD60812E5C6D7A3768FC0BCB7DE28 /* Pods-SKFlowViewController_Tests-umbrella.h in Headers */,
+				0A5CD9A022A525E500030BEB /* SKFlowViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E886468C529413A0B60B2777091F91C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC2F55BE7605413942313002B4A63D4 /* SKFlowViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71FC621B9A835EBED0F689BFF6A0E4FE /* SKFlowViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4150230CAB4CA6FE5D20791F9EF36F /* Build configuration list for PBXNativeTarget "SKFlowViewController" */;
+			buildPhases = (
+				E886468C529413A0B60B2777091F91C6 /* Headers */,
+				9CCF9F146EFDFF5A8DB26807583E4F49 /* Sources */,
+				AF21EE87838071A9E4AFA53E14DC619F /* Frameworks */,
+				4EEAABB415431712DFFAE54B11E05029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKFlowViewController;
+			productName = SKFlowViewController;
+			productReference = 29D4508A1EA64172BF7F5B5657811CAA /* SKFlowViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E2F92C16997E1AD349B2AEA0E96398A /* Pods-SKFlowViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D538DF7ECDC9B19F181DD8199263BF /* Build configuration list for PBXNativeTarget "Pods-SKFlowViewController_Tests" */;
+			buildPhases = (
+				BCD35A98C3AEC8C3B45E0F5F39FA3BA1 /* Headers */,
+				4B867A86B7C7F0714AC3B368C354890E /* Sources */,
+				57BD35860E60F9F39F605C22132934CB /* Frameworks */,
+				548162072A1767D99A2A018A6120DB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3857AC69247DEE97079AC7695B3CAB /* PBXTargetDependency */,
+			);
+			name = "Pods-SKFlowViewController_Tests";
+			productName = "Pods-SKFlowViewController_Tests";
+			productReference = 83750A96687C3FEDC9D446FA0371387B /* Pods_SKFlowViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 65FCA0E2F3E85415B3B0F88DCA1AF648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2F92C16997E1AD349B2AEA0E96398A /* Pods-SKFlowViewController_Tests */,
+				71FC621B9A835EBED0F689BFF6A0E4FE /* SKFlowViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EEAABB415431712DFFAE54B11E05029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548162072A1767D99A2A018A6120DB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B867A86B7C7F0714AC3B368C354890E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5CD9A122A525E500030BEB /* SKFlowViewController.m in Sources */,
+				22A51FAFC4C182A2443F7E7CA2D992CB /* Pods-SKFlowViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CCF9F146EFDFF5A8DB26807583E4F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6127E17808FFB9AFAE3A3491E735D42 /* SKFlowViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A3857AC69247DEE97079AC7695B3CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKFlowViewController;
+			target = 71FC621B9A835EBED0F689BFF6A0E4FE /* SKFlowViewController */;
+			targetProxy = F163B8392D3C3EE3626828FF233D1F24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BCC80D0A077F639793A1D76AFD94D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9479BF73E05285FB32BC61B13A50C995 /* Pods-SKFlowViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFlowViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFlowViewController_Tests/Pods-SKFlowViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8EA338A1AE210AC1D7BC3774E8587F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8486AF448908B2479F49E122F3CD4D67 /* Pods-SKFlowViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFlowViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFlowViewController_Tests/Pods-SKFlowViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92601DE4181CB924DFDFC99FA3C4D2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED661475B9710729DDC16C181F4CA03 /* SKFlowViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKFlowViewController/SKFlowViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKFlowViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKFlowViewController/SKFlowViewController.modulemap";
+				PRODUCT_MODULE_NAME = SKFlowViewController;
+				PRODUCT_NAME = SKFlowViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3313FFBDBEF517B51CDD424EACC4539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED661475B9710729DDC16C181F4CA03 /* SKFlowViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKFlowViewController/SKFlowViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKFlowViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKFlowViewController/SKFlowViewController.modulemap";
+				PRODUCT_MODULE_NAME = SKFlowViewController;
+				PRODUCT_NAME = SKFlowViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10D538DF7ECDC9B19F181DD8199263BF /* Build configuration list for PBXNativeTarget "Pods-SKFlowViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCC80D0A077F639793A1D76AFD94D29 /* Debug */,
+				8EA338A1AE210AC1D7BC3774E8587F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4150230CAB4CA6FE5D20791F9EF36F /* Build configuration list for PBXNativeTarget "SKFlowViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3313FFBDBEF517B51CDD424EACC4539 /* Debug */,
+				92601DE4181CB924DFDFC99FA3C4D2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
