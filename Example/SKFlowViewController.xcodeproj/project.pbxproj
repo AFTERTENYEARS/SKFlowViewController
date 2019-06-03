@@ -150,6 +150,7 @@
 				ORGANIZATIONNAME = AFTERTENYEARS;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 7JGY98T5JU;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -331,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F72166C2572E3B20D3253623 /* Pods-SKFlowViewController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7JGY98T5JU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -354,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB9BDE36FC6A5B87F51EA348 /* Pods-SKFlowViewController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7JGY98T5JU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
